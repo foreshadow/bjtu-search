@@ -1,0 +1,143 @@
+body {
+    padding-top: 20px;
+}
+
+.container {
+    margin-left: 150px;
+}
+
+.inline {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.highlight {
+    color: #c00;
+}
+
+.fullpage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.background {
+    background: url(http://area.sinaapp.com/bingImg/);
+    background-size: cover;
+    background-position: center;
+}
+
+.foreground {
+    display: none;
+    background: black;
+    opacity: 0.55;
+}
+
+.navbar .navbar-header {
+    margin-left: 8%;
+    font-family: microsoft yahei;
+}
+
+.navbar .navbar-header >:first-child {
+    padding-left: 0;
+}
+
+.homepage {
+    position: absolute;
+    left: 8%;
+    top: 20%;
+    width: 600px;
+}
+
+.homepage .logo {
+    float: left;
+    position: initial;
+    max-width: 135px;
+    margin-right: 15px;
+}
+
+.homepage .search-box {
+    float: left;
+    width: 450px;
+}
+
+.homepage .search-box input {
+    width: 388px;
+    margin-left: 9px;
+    font-size: 18px;
+}
+
+.logo {
+    position: absolute;
+    left: 15px;
+    max-height: 42px;
+}
+
+.search-box {
+    height: 42px; 
+    border: solid; 
+    border-width: 1px; 
+    border-color: #ccc;
+    background: white;
+}
+
+.search-box input { 
+    width: 85%; 
+    height: 30px; 
+    margin: 6px 0 0 15px;
+    border: none; 
+    padding: 0; 
+    font-family: microsoft yahei;
+    font-size: 20px;
+}
+
+.search-box input:focus {
+    outline: -webkit-focus-ring-color auto 0;
+}
+
+.search-box button {
+    float: right; 
+    position: relative; 
+    top: 6px; 
+    right: 6px;
+    width: 30px; 
+    height: 30px; 
+}
+
+.content >div, .content >nav {
+    padding: 16px 0 0 16px;
+}
+
+.search-count {
+    color: #666;
+    font-size: 12px;
+}
+
+.search-result h4 {
+    margin: 0 0 6px;
+    line-height: 21px;
+    font-family: 'microsoft yahei';
+}
+
+.search-result h4 a {
+    color: #001ba0 !important;
+}
+
+.search-result .caption {
+    margin-bottom: 3px;
+    color: #666;
+    max-height: 52px;
+    overflow: hidden;
+    font-size: 13px;
+}
+
+.search-result .url {
+    color: #006d21 !important;
+}
+
+.pagination {
+    margin-bottom: 0;
+}
