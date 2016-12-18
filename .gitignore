@@ -1,2 +1,3 @@
-img
-lib
+webapp/img
+webapp/lib
+webapp/setting.php

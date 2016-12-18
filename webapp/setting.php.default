@@ -1,0 +1,12 @@
+<?php
+
+class Setting {
+
+    // mysql
+    static public $host = 'localhost';
+    static public $user = 'root';
+    static public $password = '123456';
+    static public $schema = 'pdsp3';
+}
+
+?>

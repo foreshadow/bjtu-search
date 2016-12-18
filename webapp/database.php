@@ -1,12 +1,14 @@
 <?php
 
+require_once 'setting.php';
+
 class Database {
 
     protected $mysqli;
     protected $statement;
 
     function __construct() {
-        $this->mysqli = new mysqli('localhost', 'root', '9602252335', 'pdsp3');
+        $this->mysqli = new mysqli(Setting::$host, Setting::$user, Setting::$password, Setting::$schema);
         if (mysqli_connect_errno()) {
             throw new Exception('Connect failed: ' . mysqli_connect_error());
         }
